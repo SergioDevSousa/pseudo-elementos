@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>First-Letter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+            .pseudo{
+                border: 2px solid black;
+            }
+            .a::first-letter{
+                color: crimson;
+                font-size: 50px;
+            }
+            .b::first-letter{
+                background: crimson;
+                font-size: 50px;
+            }
+            .c::first-letter{
+                margin: 10px;
+                font-size: 50px;
+            }
+            .pseudo.d{
+                background-color: lightcoral;
+            }
+            .d::first-letter{
+                padding: 30px;
+                font-size: 50px;
+            }
+            .e::first-letter{
+                border: 2px solid black;
+                font-size: 50px;
+            }
+            .f::first-letter{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Pseudos-Elementos</h1>
+        <p>1 - first-letter</p>
+        <p>Aplica a <b>color</b> vermelha na primeira palavra</p>
+        <p class="pseudo a">Aplica a primeira letra da palavra</p>
+        
+        <p>Aplica <b>background</b> na primeira palavra</p>
+        <p class="pseudo b">Aplica a primeira letra da palavra</p>
+        
+        <p>Aplica <b>margin</b> na primeira palavra</p>
+        <p class="pseudo c">Aplica a primeira letra da palavra</p>
+        
+        <p>Aplica <b>padding</b> na primeira palavra</p>
+        <p class="pseudo d">Aplica a primeira letra da palavra</p>
+        
+        <p>Aplica <b>borda</b> na primeira palavra</p>
+        <p class="pseudo e">Aplica a primeira letra da palavra</p>
+        
+        <p>Aplica ,<b>font</b> na primeira palavra</p>
+        <p class="pseudo f">Aplica a primeira letra da palavra</p>
+        
+    </body>
+</html>
