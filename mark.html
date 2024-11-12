@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        summary::marker{
+            color: lime;
+            content: "◆";
+            animation-duration: 1000s;
+        }
+        li::marker{
+            color: blue;
+            content: "🌼";
+        }
+    </style>
+</head>
+<body>
+    <h1>Mark</h1>
+    <p>Permite estilizar os topicos de uma lista <code>li</code>ou então flecha de um elemento <code>summary</code></p>
+    <details>
+        <summary>Propriedade aceitas:</summary>
+        <ul>
+            <li>color</li>
+            <li>content'</li>
+            <li>white-space</li>
+            <li>font</li>
+            <li>animation</li>
+            <li>transition</li>
+        </ul>
+    </details>
+
+
+</body>
+</html>
